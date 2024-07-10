@@ -5,6 +5,8 @@ import Img1 from './assets/images/pattern-divider-mobile.svg';
 import Img2 from './assets/images/pattern-divider-desktop.svg'
 function App() {
   
+  //test of comments
+
   const [isAdvice, setIsAdvice] = React.useState({
      id: "117",
      advice: "It is easy to sit up and take nitice, what's difficult is getting up and taking action."
@@ -36,6 +38,8 @@ function App() {
       <article className='advice--container'>
          <h2 className='advice--title'>Advice #{isAdvice.id} </h2>
          <p className='quote--advice'>“{isAdvice.advice}”</p>
+
+    
          <div id='divider'>
             <img src={Img1}  alt='divider' id="divider-mobile" aria-describedby='divider--image'/>
             <img src={Img2}  alt='divider' id="divider-desktop"  aria-describedby='divider--image'/>
