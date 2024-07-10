@@ -5,7 +5,7 @@ import Img1 from './assets/images/pattern-divider-mobile.svg';
 import Img2 from './assets/images/pattern-divider-desktop.svg'
 function App() {
   
-  //test of comments
+  
 
   const [isAdvice, setIsAdvice] = React.useState({
      id: "117",
